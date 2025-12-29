@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ساندوش الابراهيم</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>ساندوش الابراهيم</h1>
+    <p>نتيمز بلقمتنا، رطعمتنا هيه بتكي عنا</p>
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#menu">قائمة الطعام</a>
+      <a href="#contact">اتصل بنا</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <img src="images/home.jpg" alt="مطعم" class="home-img">
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <h2>قائمة الطعام</h2>
+
+    <!-- شاورما -->
+    <h3>الشورما</h3>
+    <div class="dish">
+      <img src="images/shawarma_chicken.jpg" alt="شورما دجاج">
+      <h4>شورما دجاج</h4>
+      <p>السعر: 200LB</p>
+    </div>
+    <div class="dish">
+      <img src="images/shawarma_beef.jpg" alt="شورما لحم">
+      <h4>شورما لحم</h4>
+      <p>السعر: 300LB</p>
+    </div>
+
+    <!-- برغر -->
+    <h3>البرغر</h3>
+    <div class="dish">
+      <img src="images/burger_beef.jpg" alt="برغر لحم">
+      <h4>برغر لحم</h4>
+      <p>السعر: 300LB</p>
+    </div>
+    <div class="dish">
+      <img src="images/burger_chicken.jpg" alt="برغر دجاج">
+      <h4>برغر دجاج</h4>
+      <p>السعر: 250LB</p>
+    </div>
+
+    <!-- مشروبات -->
+    <h3>المشروبات</h3>
+    <div class="dish">
+      <img src="images/pepsi.jpg" alt="بيبسي صغير">
+      <h4>بيبسي صغير</h4>
+      <p>السعر:.60.000LB</p>
+    </div>
+    <div class="dish">
+      <img src="images/water.jpg" alt="ماء صغير">
+      <h4>ماء صغير</h4>
+      <p>السعر: 30</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>اتصل بنا</h2>
+    <p>رقم الهاتف: 81448823</p>
+    <p>العنوان: القبة</p>
+    <iframe src="https://www.google.com/maps?q=Tripoli+Lebanon&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 ساندوش الابراهيم - مطعم وجبات سريعة</p>
+  </footer>
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ff6f3c;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.home-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.menu {
+  padding: 40px 20px;
+  background-color: #fff3e6;
+  text-align: center;
+}
+
+.menu h2 {
+  color: #ff6f3c;
+  margin-bottom: 20px;
+}
+
+.menu h3 {
+  color: #ff4500;
+  margin-top: 30px;
+}
+
+.dish {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.dish img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contact {
+  padding: 40px 20px;
+  background-color: #ffe6d9;
+  text-align: center;
+}
+
+footer {
+  background-color: #ff6f3c;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+}
+
+</body>
+</html>
